@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+</head>
+<body>
+		<form action="task.php" method="post" novalidate>
+			<fieldset>
+				<legend>Genaral</legend>
+				<label>First Name</label>
+				<input type="text" name="fName"><br>
+				<label>Last Name</label>
+				<input type="text" name="lName"><br>
+				<label>Gender</label>
+
+				<input type="radio" name="gender" value="Male">
+				<label>Male</label>
+				<input type="radio" name="gender" value="Female">
+				<label>Female</label>
+
+
+			</fieldset>
+			<fieldset>
+				<legend>Contact</legend>
+				<label>Email</label>
+				<input type="email" name="email"><br>
+				<label>Mobile Number</label>
+				<input type="number" name="mobileNumber"><br>
+			</fieldset>
+			<fieldset>
+				<legend>Adress</legend>
+				
+				<label>Street/House/Road</label>
+				<input type="text" name="adress"><br>
+				<label>Country</label>
+				<select name="country">
+					<option value="bangladesh">Bangladesh</option>
+					<option value="india">India</option>
+					<option value="pakistan">Pakistan</option>
+				</select>
+
+			</fieldset>
+			 <input type="submit" id="registration"name="Registration" value="Registration">
+		</form>
+</body>
+</html>
